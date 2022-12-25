@@ -1,0 +1,24 @@
+POST http://127.0.0.1:10000/auth/
+Content-Type: application/json
+
+{
+  "username": "Admin",
+  "password": "test"
+}
+
+###
+PUT http://127.0.0.1:10000/auth/
+Content-Type: application/json
+
+{
+    "refresh_token": "JWT_REFRESH_TOKEN"
+}
+
+###
+POST http://127.0.0.1:10000/auth/
+Content-Type: application/json
+
+{
+  "username": "ЮЗЕР",
+  "password": "1478"
+}
