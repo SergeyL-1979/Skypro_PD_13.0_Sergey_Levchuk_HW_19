@@ -15,6 +15,7 @@ load_dotenv(override=True)
 class Config:
     DEBUG = True
     JSON_AS_ASCII = False
+    SERVER_NAME = '127.0.0.1:5050'
     # === МОЖНО ИСПОЛЬЗОВАТЬ ВАРИАНТА =======
     # SECRET_KEY = os.getenv('SECRET_KEY')
     # === ИЛИ ВОТ ТАКОЙ ВАРИАНТ =============
